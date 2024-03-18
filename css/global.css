@@ -1,0 +1,96 @@
+/* *{
+    font-family: sans-serif;
+    font-size: 14px;     
+} */
+
+.container{
+    margin: 0 auto;
+    border: 2px solid #000;
+    max-width: 380px;   
+}
+
+/* CONFIG TITULO */
+header.title{
+    border: 1.5px solid #000;
+    color: #000 ;
+    font-family: sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* CONFIG AREA DO CHAT */
+.chat-area{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    background-image: url(../img/working_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: initial;
+    opacity: 1.0;    
+}
+
+
+/* CONFIG PARA SEPARAR OS LADOS */
+.message-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start ;
+    margin: 8px;
+}
+
+
+.message-item-user{
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.message-user{
+    background-color: lightgreen;
+    padding: 5px;
+    max-width: 150px;
+    border-radius: 6px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.message-chat{
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+
+/* CONFIG CAMPO FORM */
+fieldset.control{
+    border: 1px solid black;
+    margin: 4px;
+    width: 345px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+input#message{
+  border-radius: 4px;  
+  width: 275px;
+  padding: 4px;
+}
+
+/* BOTAO FORM*/
+button.send{
+    border-radius: 4px;
+    padding: 4px;
+    cursor: pointer;
+    background-color: lightgreen;
+    font-weight: bold;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+button.send:hover{
+    transform: scale(1.10);
+    background-color: lightblue;
+    
+}
